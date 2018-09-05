@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Jesse's practice</title>
+</head>
+
 <html><body>
 <?php
 // A simple web site in Cloud9 that runs through Apache
