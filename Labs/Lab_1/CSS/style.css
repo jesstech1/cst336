@@ -1,4 +1,51 @@
+
+#name {
+    text-align: center;
+}
+
+
 body {
-    background-color: black;
+    background-color:black;
     color:gray;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {  /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none;  /* removes underline */
+    color: white;           /* by default, links are blue */
+}
+
+nav a:active {
+    color: red;
+}
+
+nav a:visited {
+    color: turquoise;
+}
+
+nav a:hover { /* pseudo class */
+    border-bottom:2px cyan solid;
+    font-size: 2em;
+    transition: .9s;  /* transition effect */
+}
+
+#me, #welcomeText {
+    float:left;
+}
+
+#welcomeText {
+    text-align: left;
+}
+
+footer {
+    text-align: left;
+    font-size: smaller;
+    color: cyan;
+    clear: left;
 }
