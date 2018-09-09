@@ -33,6 +33,7 @@ body {
 
 #graphic, #main_over {
     padding-top: 40px;
+    padding-bottom: 40px;
     float: left;
 }
 
@@ -75,10 +76,34 @@ footer {
     clear:both;
 }
 
-#easteregg1 a {  /*I probably did not have to use span tags but I wanted to see if this would work*/
+/*  This did not work, I have to do them separately.
+#easteregg1, #easteregg2, #easter3 a {  
     text-decoration: none;
     color: #40446a
 }
+*/
+
+.eastereggs a {  
+    text-decoration: none;
+    color: #40446a
+}
+
+/*Separate it is ... */
+#easteregg1 a {
+    text-decoration: none;
+    color: #40446a
+}
+#easteregg2 a {
+    text-decoration: none;
+    color: #40446a
+}
+#easteregg3 a {
+    text-decoration: none;
+    color: #40446a
+}
+*/
+
+
 
 
 
