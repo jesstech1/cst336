@@ -3,7 +3,6 @@
     text-align: center;
 }
 
-
 body {
     background-color:black;
     color:gray;
@@ -13,26 +12,26 @@ nav {
     text-align: center;
 }
 
-nav a {  /* links within "nav" container */
+nav a:link {  /* links within "nav" container */
     padding:15px;
     padding-bottom:4px;
     font-size: 1.8em;
     text-decoration: none;  /* removes underline */
-    color: white;           /* by default, links are blue */
+    color: grey;           /* by default, links are blue */
+}
+
+nav a:visited {
+    color: cyan;
+}
+
+nav a:hover { /* pseudo class */
+    border-bottom:2px green solid;
+    font-size: 2em;
+    transition: .9s;  /* transition effect */
 }
 
 nav a:active {
     color: red;
-}
-
-nav a:visited {
-    color: turquoise;
-}
-
-nav a:hover { /* pseudo class */
-    border-bottom:2px cyan solid;
-    font-size: 2em;
-    transition: .9s;  /* transition effect */
 }
 
 #me, #welcomeText {
@@ -84,9 +83,13 @@ li {
     color: white;
 }
 
-div iframe {
-    display: inline;
-    align-content: center;
+#contents {
+    margin: 0px auto;
+   
+}
+
+a.currentlink {
+    color: white;
 }
 
 h1 {
