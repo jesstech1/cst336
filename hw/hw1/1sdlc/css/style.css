@@ -56,13 +56,30 @@ body {
     color: #7e70c0;
 }
 
+#sources a {
+    text-decoration:none;
+}
+
+
+#source_links a {
+    color: #376b70;
+}
 
 footer {
-    padding-left:40px;
+    padding-left: 40px;
+    padding-top: 10px;
     clear:left;
 }
 
 #subfeet {
     clear:both;
 }
+
+#easteregg1 a {  /*I probably did not have to use span tags but I wanted to see if this would work*/
+    text-decoration: none;
+    color: #40446a
+}
+
+
+
 
