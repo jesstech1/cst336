@@ -1,0 +1,68 @@
+/*Software Design Life Cycle Styles*/
+
+#main_title {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a:link {
+    padding: 20px;
+    padding-bottom:20px;
+    text-decoration: none;
+    color: #376b70;
+}
+
+nav a:visited {
+    color:   #8c0f5b;
+}
+
+nav a:hover {
+     color: #a76ecb;
+}
+
+div {
+    color: #40446a;
+}
+
+body {
+    background-color: #d1e4e6 ;
+}
+
+#graphic, #main_over {
+    padding-top: 40px;
+    float: left;
+}
+
+#subpage_div {
+    padding-top:40px;
+    padding-left:40px;
+    float: left;
+}
+
+#subgraphic {
+    padding-top:40px;
+    float:right;
+}
+
+#source_links {
+    padding-left: 40px;
+    clear:both;
+}
+
+#sources {
+    color: #7e70c0;
+}
+
+
+footer {
+    padding-left:40px;
+    clear:left;
+}
+
+#subfeet {
+    clear:both;
+}
+
