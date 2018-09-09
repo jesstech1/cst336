@@ -6,6 +6,12 @@
 
 nav {
     text-align: center;
+    float:top;
+}
+
+nav hr {
+    width: 75%;
+    color: #0e699c;
 }
 
 nav a:link {
