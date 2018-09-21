@@ -64,7 +64,7 @@
                 $random_value3 = rand(0,2);
                 */
                 for ($i = 1; $i < 4; $i++ ) {
-                    ${"random_value" . $i} = rand(0,0);  //THIS IS BRILLIANT!  ALL LANGUAGES SHOULD HAVE THIS!
+                    ${"random_value" . $i} = rand(0,3);  //THIS IS BRILLIANT!  ALL LANGUAGES SHOULD HAVE THIS!
                     displaySymbol(${"random_value" . $i}, $i);  
                     //can't put the displayPoints functions in here, it will create three separate divs.
                 }
