@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+img {
+    border-radius:40px;
+}
+
+body {
+    background-color: maroon;
+    /*background-image:url("../img/flower/bkgrnd.jpg");   I have no clue why this isn't working*/
+    color: gold;
+    position:relative;
+}
+
+form {
+    text-decoration: underline overline shadow blue;
+    text-align:right;
+}
+form input {
+    text-decoration: none;
+    
+}
+
+header {
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align-last: center;
+    color: gold;
+}
+
+footer {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:.8em;
+    width:1000px;
+    height:500px;
+    margin:0 auto;
+    padding-top:10px;
+
+}
+#footerdiv {
+    float:left;  /*Yes it did what I wanted!*/
+}
+#csumbdiv {
+    width: 200px;
+    padding-left: 10px;
+    padding-left: 50px;
+}
+#greek {
+    float:left;
+}
+
+#main {
+    font-family: 'Tangerine', cursive;
+        width:500px;
+        height:1000px;
+        position:relative;
+         margin-left: auto;
+        margin-right: auto;
+        /*top:100px;*/
+}
+
+#flower {
+    text-align: center;
+}
+
+#greek1, #greek2, #greek3, #greek4{
+    position: relative;
+    }
+    #greek1 {
+        left:0px;
+    }
+    #greek2 {
+        left:50px;
+    }
+    #greek3 {
+        left:100px;
+    }
+    #greek4 {
+        left:150px;
+    }
+#formdiv {
+    padding-bottom: 10px;
+}
