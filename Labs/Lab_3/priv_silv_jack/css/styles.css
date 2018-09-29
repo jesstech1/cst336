@@ -1,0 +1,26 @@
+
+body {
+    background-image:url("../img/players/bkgrnd.jpg");
+    background-size:cover;
+    color:yellow;
+}
+
+footer div {
+    float:left;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.hand img {
+    float:left;
+}
+
+.hand {
+    float:none;
+}
+
