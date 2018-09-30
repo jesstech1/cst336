@@ -1,14 +1,13 @@
 
 body {
-    background-image:url("../img/players/bkgrnd.jpg");
+    background-image:url("../img/players/bg3.jpg");
     background-size:cover;
-    color:yellow;
+    color:#44b7be;
 }
 
 footer div {
     float:left;
 }
-
 
 footer {
     position: fixed;

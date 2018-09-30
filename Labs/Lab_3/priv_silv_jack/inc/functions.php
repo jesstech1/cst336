@@ -2,6 +2,8 @@
     $deck = array();
     $card = array();
     $players = array("Shuyan","Elijah","Francisco","Jesse");
+    $totals = array(0, 0, 0, 0);
+    $gtotal;
     //print_r($players);
 
     function buildDeck() {
@@ -22,31 +24,35 @@
         //echo "***$card[0]***$card[1]***";
     }
     
+    function winnerCalc() {
+        
+    }
     
-    function dealCards() {  //display cards and track total.
+    function dealCards($i) {  //display cards and track total.
     global $card;
     global $players;
-    $total = 0;
+    global $gtotal;
+    global $totals;
     $nerve = rand(0, 15);  //$nerve is a stat that measures how brave our players are at any given time.  
     //print_r($players);
     $temp = array_pop($players);
     
      echo "<div id='hand'>";
      echo "<img src='img/players/$temp.png'/>";
-        while($total < 29 + $nerve) {
+
+        while($totals[$i] < 29 + $nerve) {
             retrieveCard();
             
             echo "<img src='img/cards/$card[0]/$card[1].png'/>";
            
-            $total += $card[1];
+            $totals[$i] += $card[1];
         }
-        if ($total <= 42) {
-            echo "Player has $total points! ";
-        } else if ($total > 42) {
-            echo "Defeat ... lose ... $total, THAT'S TOO MUCH!!!";
+        if ($totals[$i] <= 42) {
+            echo "$temp has $totals[$i] points! ";
+        } else if ($totals[$i] > 42) {
+            echo "$temp You have $totals[$i] points, that's too much, why didn't you stop?  WHY?";
         }
         echo "</div>";
         echo "<br/><br/><br/><br/><br/><br/><br/>";
-        
     }
 ?>

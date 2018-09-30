@@ -11,6 +11,9 @@
             @import url("css/styles.css");
         </style>
     </head>
+    <header>
+        
+    </header>
     
     <body>
         
@@ -20,17 +23,18 @@
             shuffle($deck);
             shuffle($players);
             for ($i = 0; $i < 4; $i++) {
-                dealCards();
+                dealCards($i);
             }
+            print_r($totals);
         ?>
         </div>
         
-        
         <footer>
             <div>
-                
                 CST 336 2018 &copy; Baird, Chi, Hernandez and Anacleto<br/>
-                Disclaimer: This website is for academic purposes only.<br/>
+                <strong>Disclaimer:</strong> I did not create any of the characters 
+                on this site. All images belong to the Kingdom Hearts franchise and 
+                all rights belong to Disney and Square Enix.
             </div>
                 
                 <img src="img/csumblogo.png" alt="CSUMB logo" title="This is the CSUMB logo"/>
