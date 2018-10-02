@@ -42,8 +42,8 @@
                 array_push($diff, 1000);
             }
         }
-        echo "Diff: ";
-        print_r($diff);
+        //echo "Diff: ";
+        //print_r($diff);
         $temp = $diff[0];
         array_push($indices, 0);  //**************  By assuming the first index is the winner we eliminate the need for the boolean conditonal.
         //echo "    temp is $temp"; //                We can't use any of this because it causes a problem.
@@ -52,7 +52,7 @@
             
             if ( $temp > $diff[$j] ) {
                 $temp = $diff[$j];
-                echo "    temp is $temp";
+                //echo "    temp is $temp";
                 for ($k = 0; $k < count($indices); $k++) {
                     array_pop($indices);
                 }
@@ -67,12 +67,12 @@
             array_push($indices, 0);
         }*/
         
-        echo "<br/>";
-        echo "indices: ";
-        print_r($indices);
-        echo "<br/>";
-        echo "resPlayers: ";
-        print_r($resPlayers);
+        //echo "<br/>";
+        //echo "indices: ";
+        //print_r($indices);
+        //echo "<br/>";
+        //echo "resPlayers: ";
+        //print_r($resPlayers);
         echo "<br/>";
         echo "The Victorius!! <br/><br/>";
         $gtotal = array_sum($totals);

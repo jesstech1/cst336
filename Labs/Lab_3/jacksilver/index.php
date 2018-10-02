@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
     include "inc/functions.php"; 
+    include "timeElapsed.php";
 ?>
 
 <html>
@@ -19,6 +20,11 @@
         
         <div class="hand">
         <?php
+            $start = microtime(true);
+
+            
+        
+        
             buildDeck();
             shuffle($deck);
             shuffle($players);
@@ -30,6 +36,8 @@
             //print_r($totals);
             //echo "<br/>";
             //print_r($diff);
+            echo "<br/>";
+            displayElapsedTime();
         ?>
         </div>
         
