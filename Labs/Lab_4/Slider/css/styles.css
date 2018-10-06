@@ -1,0 +1,61 @@
+    body{
+        opacity:0.9;
+        width:100%;
+        text-align:center;
+        color:yellow;
+    }
+    
+    input {
+        font-size: 24px;
+        color: black;
+    }
+    
+    #text_in{
+        position: absolute;
+        top:50px;
+        right: 1100px;
+        width: 200px;
+        
+    }
+    
+    #text_in input {
+        border-radius: 25px;
+    }
+    
+    #carousel-example-generic {
+         margin: 0 auto;   
+         width: 700px;
+         border-radius: 10px;
+    }
+    
+    #radios {
+        position: absolute;
+        background-color: white;
+        color: black;
+        width: 200px;
+        left: 950px;
+        border-radius: 25px;
+    }
+    
+    #submission {
+        position: absolute;
+        left:1175px;
+        top:50px;
+    }
+    
+    #submission input {
+        border-radius: 10px;
+    }
+    
+    #category {
+        position: absolute;
+        top:150px;
+        left: 900px;
+        width: 200px;
+    }
+    
+    #main {
+        position: absolute;
+        top:200px;
+        left:700px;
+    }
