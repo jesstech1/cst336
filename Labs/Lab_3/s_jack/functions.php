@@ -9,7 +9,6 @@
     $diff = array();
     
     //print_r($players);
-
     function buildDeck() {
         global $deck;
         for ($i = 0; $i < 13; $i++) {
@@ -99,7 +98,6 @@
     array_push($resPlayers, $temp); //  We don't want to lose track of the order of players just yet.
     echo "<div id='hand'>";
     echo "<img src='img/players/$temp.png'/>";
-
         while($totals[$i] < 29 + $nerve) {
             retrieveCard();
             
