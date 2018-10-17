@@ -27,16 +27,12 @@
                 arctangent <input type="radio" name="tfunct" value="arctangent" <?php if (isset($_GET["tfunct"]) && $trigID == "arctangent") echo "checked";?>> 
             </p>
             <p>
-                And now for some Haiku ...
-                Quick, I need one more form element ... ah ... number!!<br/>
-                Do you write haiku?  Do you know what numbers to enter?<br/>
-                Try numbers between 1 and 10.<br/>
+                And now some haiku<br/>
+                One final form element<br/>
+                Would you like a clue?<br/>
                 <input type="number" name="haiku1" min="1" max="10" value="<?php if (isset($_GET['haiku1'])) echo $_GET["haiku1"]; ?>">
-                 
                 <input type="number" name="haiku2" min="1" max="10" value="<?php if (isset($_GET['haiku2'])) echo $_GET["haiku2"]; ?>">
-              
                 <input type="number" name="haiku3" min="1" max="10" value="<?php if (isset($_GET['haiku3'])) echo $_GET["haiku3"]; ?>">
-                
             </p>
             <p><input type="submit" name="pEntry" value="submit"></p>
         </form>
