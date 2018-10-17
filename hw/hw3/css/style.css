@@ -1,0 +1,39 @@
+#polarData {
+    width:750;
+}
+
+#polarData input {
+    color: rgba(0, 0, 0, .25);
+}
+
+
+#exactVal  {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 50px;
+    text-align: center;
+}
+
+#vinculum {
+    /*right: 100px;*/
+    width:50px;
+    
+}
+
+#testData {
+    position:absolute;
+    top:100px;
+    right:500px;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+th,td {
+    width:200px;
+    color:pink;
+    border: 1px solid pink;
+}
