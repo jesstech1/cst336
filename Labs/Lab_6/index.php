@@ -2,7 +2,7 @@
     //include "../../inc/dbConnection.php";
     include "inc/functions.php";
     include '../../inc/dbConnection.php';
-    $dbConn = startConnection();
+    $dbConn = startConnection('ottermart');
     //Creating a database connection
     //$host = "localhost";
     //$dbname = "ottermart";
