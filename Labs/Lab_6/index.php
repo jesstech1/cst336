@@ -1,8 +1,10 @@
 <?php
     //include "../../inc/dbConnection.php";
     include "inc/functions.php";
+    //include "css/styles.css";
     include '../../inc/dbConnection.php';
     $dbConn = startConnection('ottermart');
+    
     //Creating a database connection
     //$host = "localhost";
     //$dbname = "ottermart";
@@ -32,8 +34,6 @@
                             WHERE productName LIKE '%$product%'
                             OR productDescription LIKE '%$product%'";
                 */
-                
-                
             ?>
             Category: 
             <select name='category'>
@@ -49,6 +49,9 @@
             <input type='submit' name='searchForm' value='Search'/>
         </form>
         </div>
-        <?=filterProducts()?>
+        <div id='filter'>
+            <?=filterProducts()?>
+        </div>
+        
     </body>
 </html>

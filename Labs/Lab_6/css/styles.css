@@ -1,0 +1,10 @@
+div {
+    position: absolute;
+    left: 500px;
+}
+
+#filter {
+    position:absolute;
+    left:500px;
+    top:300px;
+}

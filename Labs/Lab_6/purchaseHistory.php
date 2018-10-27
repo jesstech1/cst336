@@ -19,12 +19,17 @@
     $record = $stmt->fetchALL(PDO::FETCH_ASSOC);
     
     echo $record[0]['productName'] . "<br/>";
-    echo "<img src='" .$record[0]['productImage'] . "' width='200'/><br/>"; 
-    
-    foreach($record as $rec) {
-        echo "Purchase Date: " . $rec['purchaseDate'] . "<br/>";
-        echo "Unit Price: " . $rec['unitPrice'] . "<br/>";
-        echo "Quantity: " . $rec['quantity'] . "<br/>";
+    if (empty($record[0]['purchaseDate'])) {
+        echo "No purchase info.";
+        
+    } else {
+        echo "<img src='" .$record[0]['productImage'] . "' width='200'/><br/>"; 
+        
+        foreach($record as $rec) {
+            echo "Purchase Date: " . $rec['purchaseDate'] . "<br/>";
+            echo "Unit Price: " . $rec['unitPrice'] . "<br/>";
+            echo "Quantity: " . $rec['quantity'] . "<br/>";
+        }
     }
     
 ?>

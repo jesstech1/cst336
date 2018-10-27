@@ -16,21 +16,21 @@
             $sql = "SELECT * FROM om_product NATURAL JOIN om_category WHERE 1 ";
             
             if(!empty($_GET['productName'])) {
-                $sql .= " AND productName LIKE :product";
+                $sql .= " AND (productName LIKE :product OR productDescription LIKE :product)";
                 $namedParameters[':product'] = "%$product%";
             }
             if(!empty($_GET['category'])) {
                 $sql .= " AND catName = :categoryName";
-                echo $category;
+                //echo $category;
                 $namedParameters[':categoryName'] = $category;
             }
             if(!empty($_GET['priceFrom'])) {
                 $sql .= " AND price >= :priceFrom";
-                $namedParameters[':priceFrom'] = "%$priceFrom%";
+                $namedParameters[':priceFrom'] = $priceFrom;
             }
             if(!empty($_GET['priceTo'])) {
                 $sql .= " AND price <= :priceTo";
-                $namedParameters[':priceTo'] = "%$priceTo%";
+                $namedParameters[':priceTo'] = $priceTo;
             }
             if(isset($_GET['orderBy'])) {
                 if($_GET['orderBy'] == "price") {
@@ -40,14 +40,14 @@
                 }
             }
             
-            echo "THE SQL STATEMENT IS $sql"; echo "<br/>";
+            //echo "THE SQL STATEMENT IS $sql"; echo "<br/>";
             $stmt = $dbConn->prepare($sql);
             $stmt->execute($namedParameters);
             $record = $stmt->fetchALL(PDO::FETCH_ASSOC);
             //print_r($record);
             foreach($record as $rec) {
                 echo "<a href=\"purchaseHistory.php?productId=". $rec['productId'] . "\"> History </a>";
-                echo $rec['productName'] . " " . $rec['productDecription'] . " " . $rec['price'] .  " " . $rec['catId'] . "<br/>";
+                echo $rec['productName'] . " " . $rec['productDecription'] . " " . $rec['price'] .  "<br/>";
             }
         }
     }
