@@ -5,7 +5,7 @@
         if (isset($_GET['searchForm'])) {
             echo "<h3>Products Found</h3>";
             $product = $_GET['productName'];
-            $categoryId = $_GET['category'];
+            $category = $_GET['category'];
             $priceFrom = $_GET['priceFrom'];
             $priceTo = $_GET['priceTo'];
                         //Vulnerable to $sql injection.
@@ -13,15 +13,16 @@
                                 //WHERE productName LIKE '%$product%'";
                         //NOW: Use named parameters.  :product is a placeholder to prevent sql injection.
             $namedParameters = array();
-            $sql = "SELECT * FROM om_product WHERE 1 ";
+            $sql = "SELECT * FROM om_product NATURAL JOIN om_category WHERE 1 ";
             
             if(!empty($_GET['productName'])) {
                 $sql .= " AND productName LIKE :product";
                 $namedParameters[':product'] = "%$product%";
             }
             if(!empty($_GET['category'])) {
-                $sql .= " AND catId = :categoryId";
-                $namedParameters[':categoryId'] = "%$categoryId%";
+                $sql .= " AND catName = :categoryName";
+                echo $category;
+                $namedParameters[':categoryName'] = $category;
             }
             if(!empty($_GET['priceFrom'])) {
                 $sql .= " AND price >= :priceFrom";
@@ -46,7 +47,7 @@
             //print_r($record);
             foreach($record as $rec) {
                 echo "<a href=\"purchaseHistory.php?productId=". $rec['productId'] . "\"> History </a>";
-                echo $rec['productName'] . " " . $rec['productDecription'] . " " . $rec['price'] .  "<br/>";
+                echo $rec['productName'] . " " . $rec['productDecription'] . " " . $rec['price'] .  " " . $rec['catId'] . "<br/>";
             }
         }
     }
