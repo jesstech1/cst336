@@ -1,0 +1,186 @@
+
+-------------
+BasicInfo***
+-------------
+Name: Browning
+Scientific: spider
+wins: 3
+Special: poison
+weight: 1 
+imageURL: img/Browning.jpg
+
+Name: Charlotte
+Scientific: spider
+wins: 2
+special: poison
+weight: 1 
+imageURL: img/Charlotte.jpg
+
+Name: Titan
+ScientficName: big spider
+wins: 5
+special: biting
+weight: 85
+imageURL: Titan.jpg
+
+https://www.livescience.com/41591-brazilian-wandering-spiders.html
+Name: Hecate
+Scientfic: spider
+wins: 10
+special: poison
+weight: 10
+imageURL: img/Hecate.jpg
+
+Name: Gaia
+Scientific: spider
+wins: 1
+special: poison
+weight: 1
+imageURL: img/Gaia.jpg
+
+
+https://portal.clubrunner.ca/8104/stories/10-most-dangerous-spiders-in-australia
+Name: Syd Vicious
+Scientific: spider
+wins: 10
+special: poison
+weight: 10
+imageURL: img/SydVicious.jpg
+
+https://sites.google.com/site/venomousdangerous/spiders/asia-s-most-venomous-spiders
+Name: Mellow
+Scientific: spider
+wins: 4
+special: pain
+weight: 4
+imageURL: img/Mellow.jpg
+
+https://sites.google.com/site/venomousdangerous/spiders/asia-s-most-venomous-spiders
+Name: Princess
+Scientific: big spider
+wins: 7
+special: biting
+weight: 170
+imageURL: img/Princess.jpg
+
+https://en.wikipedia.org/wiki/Goliath_birdeater#/media/File:T._Blondi_molt_-_magnified_close_up.jpg
+Name: Queen
+Scientific: big spider
+wins: 10
+special: biting
+weight: 175
+imageURL: img/Queen.jpg
+
+https://www.livescience.com/41428-huntsman-spider.html
+Name: Hunter
+Scientific: big spider
+wins: 14
+special: biting
+weight: 75
+imageURL: img/Hunter.jpg
+
+http://www.saferbrand.com/advice/insect-library/insect-education/ogre-faced-spider
+Name: Gormley
+Scientific: spider
+wins: 13
+special: web slinging
+weight: 10
+imageURL:img/Gormley.jpg
+
+
+https://www.mnn.com/earth-matters/animals/blogs/spectacular-world-spiny-orb-weaver-spiders
+Name: Toro
+Scientific: magic spider
+wins: 20
+special: magic horns
+weight: 1
+imageURL: img/Toro.jpg
+
+http://mentalfloss.com/article/56645/meet-10-beautiful-spiders
+Name: Splenda
+Scientific: magic spider
+wins: 20
+special: summon human
+weight: 1
+imageURL: img/Splenda.jpg
+
+https://www.thesun.co.uk/news/2230934/chinese-hourglass-spider-disc-shape-found-farmer-chengdu-china/
+Name: Chronus
+Scientific: magic spider
+wins: 25
+special: time stop
+weight: 40
+imageURL: img/Chronus.jpg
+
+https://www.applepestcontrol.com/the-5-rarest-insects-and-where-to-find-them/
+Name: Shi Shi
+Scientific: wasp
+wins: 30
+special: stinger
+weight: 60
+imageURL: img/ShiShi.jpg
+
+https://www.applepestcontrol.com/the-5-rarest-insects-and-where-to-find-them/
+Name: El Greco
+Scientific: bettle
+wins: 29
+special: biting
+weight: 120
+imageURL: img/ElGreco.jpg
+
+
+https://www.bustle.com/articles/120561-9-horrifying-insects-that-live-in-the-united-states-that-can-actually-kill-you
+Name: Cassanova
+Scientific: thing
+wins: 6
+special: venerial
+weight: 1
+imageURL:  img/Cassanova.jpg
+
+https://www.quora.com/What-is-the-scariest-insect-you-have-ever-seen
+Name: Stallone
+Scientific: cricket
+wins: 50
+special: nanto seiken
+weight: 25
+imageURL:  img/Stallone.jpg
+
+https://www.sciencemag.org/news/2018/01/giant-centipedes-can-kill-prey-15-times-bigger-they-are-thanks-critical-toxin
+Name: Nyarlathotep
+Scientific: pure evil
+wins: 1000
+special: crawling chaos
+weight: 1000
+imageURL: img/Nyarlathotep.jpg
+
+
+http://listverse.com/2010/08/09/10-formidable-predatory-insects/
+Name: Henry VIII
+Scientific: wasp
+wins: 12
+special: vorpal
+weight: 20
+imageURL: img/HenryIII.jpg
+
+https://www.scorpionworlds.com/emperor-scorpion/
+Name: Palpatine
+Scientific: scorpion
+wins: 55
+special: poison
+weight: 100
+imageURL: img/Palpatine.jpg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

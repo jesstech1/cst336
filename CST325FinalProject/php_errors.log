@@ -1,0 +1,12 @@
+[09-Dec-2018 23:00:19 UTC] PHP Warning:  include(inc/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php on line 14
+[09-Dec-2018 23:00:19 UTC] PHP Stack trace:
+[09-Dec-2018 23:00:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php:0
+[09-Dec-2018 23:00:19 UTC] PHP Warning:  include(): Failed opening 'inc/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php on line 14
+[09-Dec-2018 23:00:19 UTC] PHP Stack trace:
+[09-Dec-2018 23:00:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php:0
+[09-Dec-2018 23:00:19 UTC] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php on line 30
+[09-Dec-2018 23:00:19 UTC] PHP Stack trace:
+[09-Dec-2018 23:00:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php:0
+[09-Dec-2018 23:00:19 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php on line 30
+[09-Dec-2018 23:00:19 UTC] PHP Stack trace:
+[09-Dec-2018 23:00:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/ZFinalProject/admin/admin_login.php:0
